@@ -1,20 +1,12 @@
-// I have no Idea what happens here? [TIH]
-google.load("swfobject", "2.2");
-
-// Because we are using jQuery, the elements can be accessed differently? [TIH]
-$('#addVideo').click(addVideo);
-$('#go').click(searchClicked);
 
 
 // When finishing a text in the search field, I want the Enter key to initialize the search.
 function focusOnEnter(e)
 {
-var keynum = e.keyCode || e.which;  //for compatibility with IE < 9
-if(keynum == 13) //13 is the enter char code
-    alert(keynum);
-	searchClicked();
-
+var keynum = e.keyCode || e.which; //for compatibility with IE < 9
+        searchClicked();
 }
+
 
 
 function addVideo(){
@@ -112,6 +104,7 @@ function checkForAutoFunction(playerId){
 }
 
 function addVideoProcedure(key){
+alert('hier');
         $("#addVideo").attr("disabled", "disabled");
         window.timestamp = new Date().getTime();
         $('#tubes table').append("<tr class='videoElement'><td><div id='"+window.timestamp+"'></div></td>"+
