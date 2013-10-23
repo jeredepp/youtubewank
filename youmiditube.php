@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
 <title>YouMIDItube</title>
-<script language="JavaScript" type="text/javascript" src="common/js/jquery/jquery.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/jquery.js"></script>
 <script src="http://www.google.com/jsapi" type="text/javascript"></script>
 <script type="text/javascript">
 google.load("swfobject", "2.2");
