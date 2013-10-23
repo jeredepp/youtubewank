@@ -1,17 +1,21 @@
+// I have no Idea what happens here? [TIH]
 google.load("swfobject", "2.2");
 
+// Because we are using jQuery, the elements can be accessed differently? [TIH]
 $('#addVideo').click(addVideo);
 $('#go').click(searchClicked);
 
+
+// When finishing a text in the search field, I want the Enter key to initialize the search.
 function focusOnEnter(e)
 {
 var keynum = e.keyCode || e.which;  //for compatibility with IE < 9
 if(keynum == 13) //13 is the enter char code
     alert(keynum);
-	//Still doea not wor, but may just be me lacking php on my mashine
-	//document.getElementsById('go')[0].focus(); 
-return true;
+	searchClicked();
+
 }
+
 
 function addVideo(){
         $('#noAdded').hide();
