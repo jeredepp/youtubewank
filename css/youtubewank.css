@@ -1,0 +1,13 @@
+
+.clear {clear:both;}
+.videoElement {width:500px;background-color:red;}
+.replay {display:none;}
+.pause {display:none;}
+#searchBox {display:none;margin-top:90px;}
+.play, .replay, .pause {width:70px;}
+#noAdded {font-size:30px;font-weight:bold;color:red;}
+#essentials {position:fixed;top:0px;left:0px;width:100%;height:90px;background-color:white;}
+#tubes {margin-top:90px;}
+table {width:100%;}
+button {height:30px;}
+input {height:17px;}
